@@ -1,9 +1,7 @@
 import * as THREE from 'three';
 import appMc from './appMc.js';
 import appMc3d from './appMc3d.js';
-import {
-		RandomInteger,
-}	from './innerApi.js';
+import {RandomInteger}	from './innerApi.js';
 import AppResize from './appresize.js';
 
 let tmDebug = 0;
