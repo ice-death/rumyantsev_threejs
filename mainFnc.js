@@ -2,9 +2,7 @@ import * as THREE from 'three';
 import appMc from './appMc.js';
 import appMc3d from './appMc3d.js';
 import {moduleTexture} from './texture.js';
-import {	
-	RandomInteger
-}	from './innerApi.js';
+import {RandomInteger}	from './innerApi.js';
 let i, j, objTemp;
 
 //-------------------------------
