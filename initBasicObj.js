@@ -77,8 +77,6 @@ const InitBasicObj = () => {
    	 	minFilter: THREE.LinearMipmapLinearFilter
    	 });
 
-	console.log(appMc3d.cubeRenderTarget.texture);
-
 	appMc3d.cubeCamera = new THREE.CubeCamera( 1, 1000, appMc3d.cubeRenderTarget );
 
 	appMc3d.envMap = appMc3d.pmremGenerator.fromEquirectangular( moduleTexture.threeTextures["env_hdr"].texture ).texture;
