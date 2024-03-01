@@ -5,8 +5,9 @@ import {moduleTexture, textureToLoad} from './texture.js';
 import {
 	createContainer,		
 	createSprite,
-	createRect,
-	RandomInteger}	from './innerApi.js';
+	createRect
+	RandomInteger
+}	from './innerApi.js';
 import {
 	StageDown,		
 	StageMove,
